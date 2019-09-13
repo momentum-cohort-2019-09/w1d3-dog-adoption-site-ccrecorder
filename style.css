@@ -108,6 +108,9 @@ li {
 }
 
 .donate {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background: linear-gradient(rgba(167, 165, 239, 0.9), rgba(167, 165, 239, 0.9)),
 		no-repeat center/cover url('/starter_files/images/donate.jpg');
 	width: 100%;
@@ -115,7 +118,15 @@ li {
 	text-align: center;
 }
 
+.donate:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+		no-repeat center/cover url('/starter_files/images/donate.jpg');
+}
+
 .volunteer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background: linear-gradient(rgba(167, 165, 239, 0.8), rgba(167, 165, 239, 0.8)),
 		no-repeat center/cover url('/starter_files/images/volunteer.jpg');
 	width: 100%;
@@ -123,10 +134,23 @@ li {
 	text-align: center;
 }
 
+.volunteer:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+		no-repeat center/cover url('/starter_files/images/volunteer.jpg');
+}
+
 .ourLocation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background: linear-gradient(rgba(167, 165, 239, 0.8), rgba(167, 165, 239, 0.8)),
 		no-repeat center/cover url('/starter_files/images/location.png');
 	width: 100%;
 	padding: 4rem 2rem;
 	text-align: center;
+}
+
+.ourLocation:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+		no-repeat center/cover url('/starter_files/images/location.png');
 }
