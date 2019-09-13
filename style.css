@@ -1,0 +1,132 @@
+* {
+	boxsizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	background-color: rgb(242, 242, 242);
+	width: 15%;
+}
+
+main {
+	width: 70%;
+}
+
+.right {
+	background-color: rgb(242, 242, 242);
+	width: 15%;
+}
+
+.header {
+	color: rgb(254, 254, 254);
+	background-color: rgb(8, 61, 119);
+	border-bottom-color: rgb(140, 215, 235);
+	padding: 2rem;
+	font-family: Open Sans;
+}
+
+.adopt {
+	padding: 1rem 1rem 1rem 2rem;
+	font-family: Open Sans;
+}
+
+p {
+	font-family: Open Sans;
+	padding: 0 0 0 2rem;
+}
+
+h3 {
+	padding: 1rem 0 1rem 0;
+	margin: 0 2rem 0 1rem;
+}
+
+.buttonBoxGrey {
+	font-family: Open Sans;
+	display: block;
+	background-color: rgb(240, 237, 238);
+	margin: 1rem 2rem 1rem 2rem;
+}
+
+.buttonBoxOptions {
+	display: flex;
+	flex-direction: row;
+}
+
+.buttonColumns {
+	padding: 0 0 15px 1rem;
+	margin-right: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	list-style: none;
+}
+
+.dogInfo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 0 0 2rem;
+}
+
+.dogCards img {
+	width: 100%;
+}
+
+.dogCards {
+	max-width: 30%;
+	margin: 0px 8px 10px 0;
+}
+
+.attributes {
+	font-size: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+li {
+	margin: 1px 2px 1px 2px;
+	padding: 1px;
+	border-radius: 6px;
+	display: block;
+	background-color: rgb(144, 221, 240);
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+	color: #ffffff;
+}
+
+.donate {
+	background: linear-gradient(rgba(88, 57, 212, 0.9), rgba(88, 57, 212, 0.9)),
+		no-repeat center/cover url('/starter_files/images/donate.jpg');
+	width: 100%;
+	padding: 4rem 2rem;
+	text-align: center;
+}
+
+.volunteer {
+	background: linear-gradient(rgba(88, 57, 212, 0.8), rgba(88, 57, 212, 0.8)),
+		no-repeat center/cover url('/starter_files/images/volunteer.jpg');
+	width: 100%;
+	padding: 4rem 2rem;
+	text-align: center;
+}
+
+.ourLocation {
+	background: linear-gradient(rgba(88, 57, 212, 0.8), rgba(88, 57, 212, 0.8)),
+		no-repeat center/cover url('/starter_files/images/location.png');
+	width: 100%;
+	padding: 4rem 2rem;
+	text-align: center;
+}
